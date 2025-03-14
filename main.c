@@ -9,12 +9,17 @@
  * 함수에서 반환한 값이 식의 결과값이 됩니다. 
  */
 
+
 /* five는 int 타입의 값인 5를 반환하는 함수입니다. */
 int five() {
 	return 5;
 }
 
+/* To Do: 반환 타입이 int이고 이름이 value이고, 매개변수가 int 타입 하나인 함수를 선언해보세요 */
+int value(int number);
+
+
 int main() {
 	/* To Do: five()를 호출한 결과를 반환해보세요 */
-	return 0;
+	return five();
 }
